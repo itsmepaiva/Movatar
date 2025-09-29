@@ -52,6 +52,8 @@ As variaveis de ambientes armazenam dados de configuração e encontram-se centr
 ```
   - O primeiro bloco define as URL das requisiçoes das APIs sendo utilizadas pela API Movatar
   - dicebear.avatar.style=micah : essa variavel define o tipo de animaçao do DiceBear que será utilizado para gerar o avatar. Devido o grande numero de variaçoes de animaçoes da API, foi preferivel deixar a configuração da animaçao como variavel de ambiente para evitar falhas de comunicação.
+
+    *conferir na documentação da DiceBear API os estilos disponiveis para o caso de alteração da variavel*
   - o ultimo bloco define as chaves de API a serem utilizadas pelo programa, antes de iniciar o projeto pela primeira vez, voce deve substituir os campos (SUA_CHAVE_API) pela respectiva API key gerada pela OMDb API e YouTube Data API v3.
 ## Documentação da API
 
