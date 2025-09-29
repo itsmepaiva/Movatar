@@ -1,0 +1,57 @@
+{
+	"info": {
+		"_postman_id": "c37fab06-8431-43e9-a209-bb3f3b4e3880",
+		"name": "Movatar Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43181464",
+		"_collection_link": "https://winter-sunset-689992.postman.co/workspace/Movatar~eee94d7b-fb33-45cc-8d2c-3db3cbc20f24/collection/43181464-c37fab06-8431-43e9-a209-bb3f3b4e3880?action=share&source=collection_link&creator=43181464"
+	},
+	"item": [
+		{
+			"name": "Get Movie",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/movie?title=dune&year=2021",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"movie"
+					],
+					"query": [
+						{
+							"key": "title",
+							"value": "dune"
+						},
+						{
+							"key": "year",
+							"value": "2021"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Movie and Avatar",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Get Movie and Trailer",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
