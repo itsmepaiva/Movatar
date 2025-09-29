@@ -16,6 +16,7 @@
 - A API Movatar é integrada com a OMBd API que verifica a existencia do filme escolhido e retorna dados sobre o filme, após isso a API gera um avatar com a utilizaçao da DiceBear API baseado no imdb Id do filme ou entao retorna o trailer do filme selecionado utilizando a Youtube Data API v3.
 
 ## Funcionamento
+- A OMDb API funciona apenas fazendo requisiçoes com o nome original do filme, e, devido o grande acervo de dados, indicar o ano de lançamento junto do titulo facilita o encontro mais acertivo
 - Todas as requisiçoes do projeto sao realizadas via requisiçoes HTTP, baseada no modelo de comunicação REST 
 - Para a utilização da API corretamente, é necessario gerar uma API key para a OMBd API e outra key para a Youtube DATA API v3.
   (A DiceBear API nao requer a utilizaçao de chave key para o Funcionamento). 
