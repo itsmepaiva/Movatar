@@ -104,3 +104,11 @@ As variaveis de ambientes armazenam dados de configuração e encontram-se centr
 **Resposta Esperada: (200 OK)** 
 
 **Retorna:	MovatarResponseDTO (Objeto JSON contendo Title, Year, Plot, ImdbID, avatarUrl e avatarSource.).**
+
+# Integrantes
+- Domingos Sávio de Paiva Barbosa Júnior
+- Filipe Victor Braga Da Costa
+- Nicolas de Oliveira Duarte
+- Rodolfo Pacheco Paula Bittencourt
+- Sávio Almeida Melo
+- Yan Levi Leal Chagas
